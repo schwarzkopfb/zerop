@@ -1,6 +1,6 @@
 {
   "name": "zerop",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Pad a number with leading or trailing zeros",
   "main": "index.js",
   "files": [

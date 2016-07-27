@@ -24,7 +24,7 @@ pad.right(42, 5) // '42000'
 
 ## API
 
-`zerop(number, [length=2], [radix=10])` ⇒ `string`
+`zerop(number, [length=2], [radix=10])` ⇒ `string` <br/>
 `zerop.right(number, [length=2], [radix=10])` ⇒ `string`
 
 ```js

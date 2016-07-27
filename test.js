@@ -10,6 +10,9 @@ test.test('api', function (test) {
     test.strictEqual(pad, pad.left, 'pad.left should be a reference to the main export')
     test.strictEqual(pad.version, require('./package.json').version, 'version should be exposed correctly')
 
+    test.type(pad.left(1), 'string')
+    test.type(pad.right(1), 'string')
+
     test.throws(
         function () {
             pad.left = null

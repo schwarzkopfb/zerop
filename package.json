@@ -1,0 +1,44 @@
+{
+  "name": "zerop",
+  "version": "1.0.0",
+  "description": "Pad a number with leading or trailing zeros",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "tap test.js",
+    "coverage": "npm test -- --cov --coverage-report=lcov"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/schwarzkopfb/zerop.git"
+  },
+  "keywords": [
+    "zero",
+    "fill",
+    "pad",
+    "padding",
+    "number",
+    "leading",
+    "trailing",
+    "fast",
+    "radix"
+  ],
+  "author": "Schwarzkopf Balazs <schwarzkopfb@icloud.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/schwarzkopfb/zerop/issues"
+  },
+  "homepage": "https://github.com/schwarzkopfb/zerop#readme",
+  "devDependencies": {
+    "npad": "^1.0.0",
+    "pad": "^1.0.0",
+    "padster": "0.0.3",
+    "tap": "^6.2.0",
+    "zero-fill": "^2.2.3",
+    "zerofill": "^0.1.0",
+    "zeroise": "^0.1.0",
+    "zpad": "^0.5.0"
+  }
+}
